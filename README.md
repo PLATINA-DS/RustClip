@@ -43,6 +43,23 @@ sudo pacman -S rofi
 
 ## Installation
 
+### Release Installation (Recommended)
+
+1. Download the latest release from [GitHub Releases](https://github.com/PLATINA-DS/RustClip/releases)
+2. Download and run the install script:
+```bash
+curl -L https://github.com/PLATINA-DS/RustClip/releases/latest/download/install.sh -o install.sh
+chmod +x install.sh
+./install.sh
+```
+
+This will automatically:
+- Install rofi if needed
+- Download the RustClip binary
+- Set up autostart
+- Configure Super+V keyboard shortcut
+- Start the daemon
+
 ### Manual Installation
 
 1. Clone the repository:
