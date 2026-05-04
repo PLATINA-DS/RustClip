@@ -18,6 +18,23 @@ A lightweight clipboard manager for Linux written in Rust. Tracks text, links, f
 - rofi (for the clipboard menu)
 - Linux with X11 or Wayland
 
+### Installing rofi
+
+On Ubuntu/Debian:
+```bash
+sudo apt install rofi
+```
+
+On Fedora:
+```bash
+sudo dnf install rofi
+```
+
+On Arch Linux:
+```bash
+sudo pacman -S rofi
+```
+
 ## Dependencies
 
 - `arboard` - Cross-platform clipboard access
